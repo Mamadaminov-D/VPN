@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0 ;
+    margin: 0;
   }
   
   body {
@@ -141,15 +143,24 @@
   }
 
 .stats-div {
+  width: 1100px;
+  height: 170px;
   display: flex;
   justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  box-shadow:0 0 77px #c0b7b75b ;
+  border-radius: 25px;
+  
   
 }
 .nine {
   display: flex;
   justify-content: space-between;
-  margin-right: 30px;
-  border-right: 2px solid rgb(216, 212, 212);
+  padding-left: 70px;
+  
+  border-right: 1px solid rgb(216, 212, 212);
+  padding-right: 25px;
 }
 .nine h2 {
   margin-top: 15px;
@@ -166,3 +177,113 @@
   
 }
 
+.nine img {
+  width: 55px;
+}
+
+.fife {
+border: none;
+}
+
+.checks h2 {
+  font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+}
+
+.checks {
+  margin-left: 150px;
+}
+
+.advises {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 ;
+}
+
+.advises li {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.advises li img {
+  margin-right: 11px;
+}
+
+.provide {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.your-choose {
+  text-align: center;
+  margin-top: 80px;
+
+}
+
+.boxes{
+  display: flex;
+  justify-content: space-between;
+}
+.first-box {
+  width: 30%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding-top: 80px;
+  padding-left: 93px;
+  padding-right: 93px;
+  padding-bottom: 50px;
+}
+
+.first-box img {
+  
+  margin-right: 10px;
+
+}
+
+.first-box h2 {
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.first-list li {
+  
+  width: 210px;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  padding: 0 ;
+}
+
+.unlimet-div{
+  padding-top: 30px;
+}
+
+.unlimet-div h2 {
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.unlimet-div a {
+  padding: 10px 50px;
+  width: 40px;
+  border: 1px solid #F53838;
+  color: #F53838;
+  border-radius: 20px;
+  margin-left: 20px;
+  
+}
+
+.unlimet-div a:hover{
+  background-color:#F53838;
+  color: #fff;
+}
+
+.first-box:hover {
+  border-color: #F53838;
+}
